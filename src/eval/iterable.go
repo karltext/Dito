@@ -1,9 +1,9 @@
 package eval
 
 import (
-	"dito/src/ast"
-	"dito/src/object"
-	"dito/src/token"
+	"github.com/dito/src/ast"
+	"github.com/dito/src/object"
+	"github.com/dito/src/token"
 )
 
 func evalIndexExpression(node *ast.IndexExpression, env *object.Environment) object.Object {

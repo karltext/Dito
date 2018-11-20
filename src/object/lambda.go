@@ -2,7 +2,7 @@ package object
 
 import (
 	"bytes"
-	"dito/src/ast"
+	"github.com/dito/src/ast"
 )
 
 // Lambda :

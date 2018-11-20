@@ -1,7 +1,7 @@
 package object
 
 import (
-	"dito/src/token"
+	"github.com/dito/src/token"
 	"math"
 )
 

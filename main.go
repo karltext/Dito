@@ -3,11 +3,11 @@
 package main
 
 import (
-	"dito/src/eval"
-	"dito/src/object"
-	"dito/src/parser"
-	"dito/src/repl"
-	"dito/src/scanner"
+	"github.com/dito/src/eval"
+	"github.com/dito/src/object"
+	"github.com/dito/src/parser"
+	"github.com/dito/src/repl"
+	"github.com/dito/src/scanner"
 	"fmt"
 	"io"
 	"io/ioutil"

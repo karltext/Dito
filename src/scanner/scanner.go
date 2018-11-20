@@ -11,7 +11,7 @@ package scanner
 
 import (
 	"bytes"
-	"dito/src/token"
+	"github.com/dito/src/token"
 )
 
 // Scanner implements the methods needed to scan a program.
@@ -45,7 +45,7 @@ func (s *Scanner) NextToken() (tok token.Token, literal string, line int) {
 	// the odd awkward check in the parser, the way it handles comments stops
 	// trailing comments.
 
-	if s.newline && s.char == '\n' {
+	if s.newline && (s.char == '\n' || s.char =='\r')  {
 		s.newline = false
 		s.advanceLine()
 		return token.NEWLINE, token.NEWLINE.String(), s.lineno - 1

@@ -1,8 +1,8 @@
 package eval
 
 import (
-	"dito/src/ast"
-	"dito/src/object"
+	"github.com/dito/src/ast"
+	"github.com/dito/src/object"
 )
 
 func evalFunctionCall(fn ast.Expression, fnArgs []ast.Expression, env *object.Environment) object.Object {

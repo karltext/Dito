@@ -18,8 +18,8 @@ go test ./... -coverprofile $COVER_FILE >> $LOG_FILE
 # it dosent work without this. may be my GO_PATH but it creates the
 # correct absoulute path for the files then when the cover tool tries to
 # produce the output it tries to write the abspath + GO_ROOT and GO_PATH.
-sed -i '' "s/_$CURRENT_DIR/dito/g" $COVER_FILE
-sed -i '' "s/_$CURRENT_DIR/dito/g" $LOG_FILE
+sed -i '' "s/_$CURRENT_DIR/github.com/dito/g" $COVER_FILE
+sed -i '' "s/_$CURRENT_DIR/github.com/dito/g" $LOG_FILE
 
 # generate interactive coverage page.
 go tool cover -html=$COVER_FILE -o $COVER_HTML

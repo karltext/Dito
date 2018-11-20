@@ -8,9 +8,9 @@ package parser
 // TODO: Run more tests to find any more problems.
 
 import (
-	"dito/src/ast"
-	"dito/src/scanner"
-	"dito/src/token"
+	"github.com/dito/src/ast"
+	"github.com/dito/src/scanner"
+	"github.com/dito/src/token"
 	"strconv"
 )
 

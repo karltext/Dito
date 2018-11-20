@@ -1,10 +1,10 @@
 package eval
 
 import (
-	"dito/src/ast"
-	"dito/src/object"
-	"dito/src/parser"
-	"dito/src/scanner"
+	"github.com/dito/src/ast"
+	"github.com/dito/src/object"
+	"github.com/dito/src/parser"
+	"github.com/dito/src/scanner"
 	"io/ioutil"
 	"os"
 )

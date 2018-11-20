@@ -5,9 +5,9 @@ package eval
 // or incorect.
 
 import (
-	"dito/src/object"
-	"dito/src/parser"
-	"dito/src/scanner"
+	"github.com/dito/src/object"
+	"github.com/dito/src/parser"
+	"github.com/dito/src/scanner"
 	"testing"
 )
 

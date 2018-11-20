@@ -2,7 +2,7 @@ package ast
 
 import (
 	"bytes"
-	"dito/src/token"
+	"github.com/dito/src/token"
 	"fmt"
 	"strings"
 )

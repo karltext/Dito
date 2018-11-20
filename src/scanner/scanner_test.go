@@ -1,7 +1,7 @@
 package scanner
 
 import (
-	"dito/src/token"
+	"github.com/dito/src/token"
 	"testing"
 )
 

@@ -1,9 +1,9 @@
 package parser
 
 import (
-	"dito/src/ast"
-	"dito/src/scanner"
-	"dito/src/token"
+	"github.com/dito/src/ast"
+	"github.com/dito/src/scanner"
+	"github.com/dito/src/token"
 	"fmt"
 	"testing"
 )

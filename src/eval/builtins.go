@@ -1,7 +1,7 @@
 package eval
 
 import (
-	"dito/src/object"
+	"github.com/dito/src/object"
 	"io"
 	"math"
 	"math/rand"

@@ -1,7 +1,7 @@
 package parser
 
 import (
-	"dito/src/token"
+	"github.com/dito/src/token"
 	"fmt"
 	"io"
 	"strings"

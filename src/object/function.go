@@ -1,7 +1,7 @@
 package object
 
 import (
-	"dito/src/ast"
+	"github.com/dito/src/ast"
 	"fmt"
 )
 

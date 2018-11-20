@@ -2,19 +2,19 @@ package repl
 
 import (
 	"bufio"
-	"dito/src/eval"
-	"dito/src/object"
-	"dito/src/parser"
-	"dito/src/scanner"
-	"dito/src/token"
+	"github.com/dito/src/eval"
+	"github.com/dito/src/object"
+	"github.com/dito/src/parser"
+	"github.com/dito/src/scanner"
+	"github.com/dito/src/token"
 	"fmt"
 	"io"
 )
 
 // command prompt constants
 const (
-	PROMPT = "\033[36mdito:\033[m   "
-	QUIT   = "\033[31mQQ\033[m"
+	PROMPT = "dito:  "
+	QUIT   = "QQ"
 )
 
 // Black       0;30     Dark Gray     1;30
